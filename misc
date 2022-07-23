@@ -1,0 +1,27 @@
+# Keybindings
+Ctrl + Alt + Del: lock & suspend (xkeybinds in .xinitrc & .xbindkeysrc)
+Fn + F8/F9: adjust brightness
+Fn + F1/2/3: adjust volume
+Fn + F6: play/pause
+Fn + F10/11: adjust keyboard backlight
+
+# Commands
+chrome: google-chrome-stable (in .bashrc)
+newtex: cp -a /D/College/General/template/. (in .bashrc)
+newcpp, newcppds, newcppall: cp /D/Programming/C++/template/[] main.cpp
+tlmgr install [pkg]: install LaTeX package
+redshift -P -O [temp]: blue/RGB light filter
+# vim commands
+:!@#, :@: compile files with configured extension (C++, Python, OCaml), default to :321 if file extension unconfigured
+:#@!, :@@: run file with configured extension or return unknown file extension
+
+# Useful commands
+use faillock --user fareed to unlock sudo after failing password attempts
+use sudo EDITOR=vim visudo to edit user permissions
+use which [command] to find the location of a program
+use sensors to monitor hardware temps
+use sudo pacman -S and yay -S to install packages and AUR packages
+search with rg [term] 2>/dev/null (ripgrep; does not print errors)
+configure polybar with /etc/polybar/config.ini
+# Startup
+run sudo thermald, sudo bumblebeed, htop

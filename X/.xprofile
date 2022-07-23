@@ -1,0 +1,6 @@
+!/.fehbg &
+xbindkeys
+xset r rate 150 50
+sudo thermald
+tee /proc/acpi/bbswitch <<< OFF
+sudo bumblebeed
